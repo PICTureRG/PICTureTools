@@ -1,0 +1,60 @@
+TEST CASE FOR: dataset = mnist, train_N = 50000, nvisible = 784, epochs = 20, K = 1,
+matrix time: 46.6249
+dp time: 39.297
+Speedup: 1.186
+TEST CASE FOR: dataset = flipmnist, train_N = 50000, nvisible = 784, epochs = 20, K = 1,
+matrix time: 46.2859
+dp time: 39.3874
+Speedup: 1.175
+TEST CASE FOR: dataset = cal101, train_N = 4100, nvisible = 784, epochs = 300, K = 1,
+matrix time: 58.7028
+dp time: 49.8059
+Speedup: 1.179
+TEST CASE FOR: dataset = newsgroup, train_N = 8500, nvisible = 100, epochs = 100, K = 1,
+matrix time: 7.94306
+dp time: 7.0425
+Speedup: 1.128
+TEST CASE FOR: dataset = micro-norb, train_N = 15000, nvisible = 1024, epochs = 100, K = 1,
+matrix time: 89.899
+dp time: 75.6733
+Speedup: 1.188
+TEST CASE FOR: dataset = mnist, train_N = 50000, nvisible = 784, epochs = 20, K = 5,
+matrix time: 121.01
+dp time: 60.6846
+Speedup: 1.994
+TEST CASE FOR: dataset = flipmnist, train_N = 50000, nvisible = 784, epochs = 20, K = 5,
+matrix time: 121.149
+dp time: 53.9061
+Speedup: 2.247
+TEST CASE FOR: dataset = cal101, train_N = 4100, nvisible = 784, epochs = 300, K = 5,
+matrix time: 149.457
+dp time: 70.3608
+Speedup: 2.124
+TEST CASE FOR: dataset = newsgroup, train_N = 8500, nvisible = 100, epochs = 100, K = 5,
+matrix time: 18.2853
+dp time: 13.6195
+Speedup: 1.343
+TEST CASE FOR: dataset = micro-norb, train_N = 15000, nvisible = 1024, epochs = 100, K = 5,
+matrix time: 216.978
+dp time: 112.596
+Speedup: 1.927
+TEST CASE FOR: dataset = mnist, train_N = 50000, nvisible = 784, epochs = 20, K = 10
+matrix time: 212.605
+dp time: 86.9736
+Speedup: 2.444
+TEST CASE FOR: dataset = flipmnist, train_N = 50000, nvisible = 784, epochs = 20, K = 10
+matrix time: 212.871
+dp time: 70.507
+Speedup: 3.019
+TEST CASE FOR: dataset = cal101, train_N = 4100, nvisible = 784, epochs = 300, K = 10
+matrix time: 262.597
+dp time: 95.5684ma
+Speedup: 2.748
+TEST CASE FOR: dataset = newsgroup, train_N = 8500, nvisible = 100, epochs = 100, K = 10
+matrix time: 31.4246
+dp time: 21.8362
+Speedup: 1.439
+TEST CASE FOR: dataset = micro-norb, train_N = 15000, nvisible = 1024, epochs = 100, K = 10
+matrix time: 374.937
+dp time: 157.564
+Speedup: 2.38
